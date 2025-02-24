@@ -18,6 +18,8 @@ def calculate_grade(score):
         return "F"
 
 # Main program execution
-score = get_student_score()
-grade = calculate_grade(score)
-print(f"Your Grade is: {grade}")
+
+if __name__ == "__main__":
+    student_score = get_student_score()
+    student_grade = calculate_grade(student_score)
+    print(f"Your Grade is: {student_grade}")
